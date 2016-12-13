@@ -5,6 +5,18 @@ int main()
 {
     //Declaracion de variables
 
+    //Lentes
+    struct Lens{
+        char  partName;
+        char  project;
+        char  arm;
+        int   drawingVersion;
+
+        float LeftRoC;
+        float RightRoC;
+
+    };
+
     //Indice de refraccion
 
     //Distancia a la fuente
@@ -24,6 +36,8 @@ int main()
     //Iteraciones hasta tener thickness requerido
 
     //Calcular back focal lenght
+
+    //Update data
 
 
     printf("Hello world!\n");
